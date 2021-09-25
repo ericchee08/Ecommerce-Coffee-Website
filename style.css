@@ -76,3 +76,30 @@ nav li:hover::after{
     text-align: center;
     padding-top: 30px;
 }
+
+
+@media (max-width: 1064px) {
+    .close {
+        position: absolute;
+        right: 10px;
+        margin: 20px;
+        color: white;
+    }
+    
+    .open {
+        color: white;
+    }
+
+    nav h1{
+        font-size: 30px;
+    }
+
+    nav a{
+        font-size: 12px;
+    }
+
+    /* nav li{
+        margin-right: 10px;
+    } */
+}
+
