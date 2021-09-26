@@ -77,9 +77,9 @@ nav li:hover::after{
     padding-top: 30px;
 }
 
-/* nav .fas{
+nav .fas{
     display: none;
-} */
+}
 
 
 @media (max-width: 1064px) {
