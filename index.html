@@ -20,16 +20,18 @@
     <section class="header">
         <nav>
             <h1>é-Coffee</h1>
-            <ul>
-                <i class="fas fa-times open"></i>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Guide</a></li>
-                <li><a href="">Coffee</a></li>
-                <li><a href="">Subscription</a></li>
-                <li><a href="">Equipment</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-            <i class="fas fa-bars close" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Guide</a></li>
+                    <li><a href="">Coffee</a></li>
+                    <li><a href="">Subscription</a></li>
+                    <li><a href="">Equipment</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars show" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
@@ -48,6 +50,8 @@
     </section>
 
 
+
+    <script src="app.js"></script>
 </body>
 
 </html>
