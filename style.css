@@ -30,7 +30,7 @@ nav li{
 nav a {
     text-decoration: none;
     color:rgb(206, 206, 206);
-    font-size: 30px;
+    font-size: 24px;
 }
 
 nav h1{
@@ -51,12 +51,12 @@ nav h1{
 }
 
 .text-box h2{
-    font-size: 50px;
+    font-size: 45px;
     padding-bottom: 10px;
 }
 
 .text-box p{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 nav li::after{
@@ -80,7 +80,6 @@ nav li:hover::after{
 nav .fas{
     display: none;
 }
-
 
 @media (max-width: 1064px) {
     .show {
@@ -135,7 +134,65 @@ nav .fas{
     .nav-links ul{
         padding: 15px;
     }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-col{
+        padding:25px 0px;
+    }
 
-   
 }
 
+/* ------------------------ FOOTER SECTION-------------------- */
+
+.footer{
+    padding: 35px 0px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #291E18;
+    width: 100%;
+    color: rgb(206, 206, 206); 
+}
+
+.footer-icons, #made{
+    text-align: center;
+}
+
+.footer-col{
+    flex-basis: 10%;
+}
+
+.form input {
+    width: 80%;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.form div{
+    display: block;
+}
+
+.form button{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* ----------------------terms section----------------------- */
+
+.terms{
+    text-align: center;
+    background-color: #291E18;
+    color:rgb(206, 206, 206); 
+}
+
+.terms p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.terms a {
+    text-decoration: none;
+    color:rgb(206, 206, 206); 
+    padding: 0 5px;
+}
