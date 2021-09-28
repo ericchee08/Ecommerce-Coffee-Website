@@ -128,7 +128,17 @@ nav .fas{
     }
     .nav-links ul{
         padding: 15px;
+        width: 80%;
     }
+
+    /* best-seller media queries */
+    .row{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+   
+    /* footer media queries */
     .footer{
         flex-direction: column;
         text-align: center;
