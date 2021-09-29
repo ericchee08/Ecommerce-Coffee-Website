@@ -28,13 +28,15 @@ nav li{
 
 nav a {
     text-decoration: none;
-    color:rgb(206, 206, 206);
+    /* color:rgb(206, 206, 206); */
+    color: rgb(252, 243, 229);
     font-size: 24px;
 }
 
 nav h1{
     font-size: 108px;
-    color:rgb(206, 206, 206);
+    /* color:rgb(206, 206, 206); */
+    color: rgb(252, 243, 229);
     margin: 1.5%;
     border-bottom: 1px solid white;
     text-align: center;
@@ -42,7 +44,8 @@ nav h1{
 } 
 
 .text-box{
-    color: rgb(206, 206, 206);
+    /* color: rgb(206, 206, 206); */
+    color: rgb(252, 243, 229);
     text-align: center;
     align-items: center;
     margin-top: 10%;
@@ -62,7 +65,8 @@ nav li::after{
     content:''; 
     width: 0%;
     height: 2px;
-    background: rgb(206, 206, 206);
+    /* background: rgb(206, 206, 206); */
+    color: rgb(252, 243, 229);
     display:block;  
     transition: 0.7s;
 }
@@ -182,6 +186,20 @@ nav .fas{
     display: block;
 }
 
+.best-col h3, .best-col h5, .best-col p{
+    text-align: left;
+}
+
+.best-col h3{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.best-col h5{
+    font-size: 12px;
+    padding: 3px 0px;
+}
+
 
 /* ------------------------ FOOTER SECTION-------------------- */
 
@@ -191,7 +209,8 @@ nav .fas{
     justify-content: space-evenly;
     background-color: #291E18;
     width: 100%;
-    color: rgb(206, 206, 206); 
+    /* color: rgb(206, 206, 206);  */
+    color: rgb(252, 243, 229);
 }
 
 .footer-icons, #made{
@@ -206,6 +225,7 @@ nav .fas{
     width: 80%;
     margin: 5px 0;
     padding: 5px;
+    background-color: rgb(252, 243, 229);;
 }
 
 .form div{
@@ -222,7 +242,8 @@ nav .fas{
 .terms{
     text-align: center;
     background-color: #291E18;
-    color:rgb(206, 206, 206); 
+    /* color:rgb(206, 206, 206);  */
+    color: rgb(252, 243, 229);
 }
 
 .terms p {
@@ -232,6 +253,7 @@ nav .fas{
 
 .terms a {
     text-decoration: none;
-    color:rgb(206, 206, 206); 
+    /* color:rgb(206, 206, 206);  */
+    color: rgb(252, 243, 229);
     padding: 0 5px;
 }
