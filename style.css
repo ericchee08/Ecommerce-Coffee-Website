@@ -141,7 +141,6 @@ nav .fas{
         padding: 0 30px;
     }
 
-   
     /* footer media queries */
     .footer{
         flex-direction: column;
@@ -188,6 +187,7 @@ nav .fas{
 
 .best-col h3, .best-col h5, .best-col p{
     text-align: left;
+    
 }
 
 .best-col h3{
@@ -199,6 +199,62 @@ nav .fas{
     font-size: 12px;
     padding: 3px 0px;
 }
+
+.best-col p {
+    font-weight: bolder;
+}
+
+.best-col a{
+    text-decoration: none;
+    color: black;
+}
+
+.mouseover{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.8s;
+    
+}
+
+.mouseover:hover{
+    background: rgba(41, 30, 24, 0.9);
+    color:rgb(252, 243, 229);
+    
+}
+
+.mouseover p {
+    opacity: 0;
+    color: rgb(252, 243, 229);
+    font-size:20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.mouseover:hover p{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.mouseover button{
+    
+    opacity: 0;
+}
+
+.mouseover:hover button{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.mouseover button h3{
+    text-align: center;
+    padding: 15px 40px;
+}
+
+
 
 
 /* ------------------------ FOOTER SECTION-------------------- */
