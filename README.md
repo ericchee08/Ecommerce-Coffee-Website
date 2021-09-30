@@ -8,3 +8,8 @@ The idea came about from a work colleague who was really into fresh coffee, he h
 
 Therefore, to learn more about it, I decided to develop a website which required me to go out and research different products and the methods of coffee making. Not only has this project improved my web development skills, it has also developed my taste in quality coffee. :)
 
+## Design process
+
+Currently working on the front page of the website, to develop the design ideas I had created a wireframe as guidance for the sections required.
+
+![diagram](https://user-images.githubusercontent.com/58150120/135517603-14dd3529-f4c5-43f0-b6d0-bdbe285d1cc8.JPG)
