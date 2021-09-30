@@ -223,15 +223,14 @@ nav .fas{
 .mouseover:hover{
     background: rgba(41, 30, 24, 0.9);
     color:rgb(252, 243, 229);
-    
 }
 
 .mouseover p {
     opacity: 0;
     color: rgb(252, 243, 229);
-    font-size:20px;
+    font-size:12px;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .mouseover:hover p{
@@ -240,7 +239,7 @@ nav .fas{
 }
 
 .mouseover button{
-    
+    margin-top: 10px;
     opacity: 0;
 }
 
@@ -251,10 +250,42 @@ nav .fas{
 
 .mouseover button h3{
     text-align: center;
-    padding: 15px 40px;
+    padding: 10px 20px;
+    font-size: 12px;
 }
 
 
+
+/* ------------------------ SUBSCRIPTION SECTION-------------------- */
+
+.subscription{
+    align-items: center;
+    text-align: center;
+    background: #1f1503;
+    padding: 20px;
+}
+
+
+.subscription h3{
+    border: 1px solid rgb(15, 14, 14);
+    padding: 140px;
+    background-image: linear-gradient(rgba(240, 240, 240, 0.7),rgba(83, 65, 50, 0.7)),url(images/subscribe.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------------ REVIEW SECTION-------------------- */
+
+.review{
+    align-items: center;
+    text-align: center;
+}
+
+.review h3{
+    border: 1px solid black;
+    margin: 30px;
+    padding: 150px;
+}
 
 
 /* ------------------------ FOOTER SECTION-------------------- */
