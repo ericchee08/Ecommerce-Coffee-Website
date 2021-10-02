@@ -273,7 +273,8 @@ nav .fas{
     background-image: url(images/subscribe.jpeg);
     background-size: cover;
     background-position: center;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .image2{
@@ -282,6 +283,9 @@ nav .fas{
     background-image: url(images/subscribe2.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+ 
     
 }
 
@@ -291,6 +295,9 @@ nav .fas{
     background-image: url(images/subscribe3.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(252, 243, 229);
 }
 
 * {box-sizing:border-box}
@@ -307,17 +314,6 @@ nav .fas{
     width: 100%;
   }
   
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -350,6 +346,28 @@ nav .fas{
   from {opacity: .3}
   to {opacity: 1}
 }
+
+.subscription input{
+    
+    padding: 20px 100px;
+    background-color:transparent;
+    border-color: #291E18;
+    transition: 1s;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.subscription input:hover{
+    background-color:#291E18;
+    color: rgb(252, 243, 229);
+    position: block;
+}
+
+#b3 {
+    color: rgb(252, 243, 229);
+    border-color: rgb(252, 243, 229);
+}
+
 
 /* ------------------------ REVIEW SECTION-------------------- */
 
