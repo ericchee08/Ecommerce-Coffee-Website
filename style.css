@@ -264,6 +264,7 @@ nav .fas{
     background: #1f1503;
     padding: 20px;
     position: relative;
+    padding-top: 25px;
 }
 
 
@@ -376,14 +377,52 @@ nav .fas{
     text-align: center;
     position: relative;
 }
-
+/* 
 .review h3{
     border: 1px solid black;
     margin: 30px;
     padding: 150px;
     
+} */
+
+
+.fa, .fas {
+    color: #FF8761;
 }
 
+.review-col div{
+    text-align: left;
+    margin: 65px;
+    padding: 30px 40px;
+    /* padding-bottom: 65px; */
+    background-color: #EFD5BA;
+    border-radius: 10px;
+}
+
+.review-col h2{
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+
+.review h2{
+    padding-top: 40px;
+}
+
+.review-col p{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+.date{
+    text-align:end;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.fa-user-check{
+    color: #29B79A;
+}
 
 /* ------------------------ FOOTER SECTION-------------------- */
 
