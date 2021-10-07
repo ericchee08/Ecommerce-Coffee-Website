@@ -138,10 +138,12 @@ nav .fas{
     /* best-seller media queries */
     .row{
         flex-direction: column;
-        padding: 0 30px;
+        padding: 0 0px;
     }
 
-
+    .users h2{
+        font-size: 10px;
+    }
 
     /* footer media queries */
     .footer{
@@ -377,20 +379,13 @@ nav .fas{
     text-align: center;
     position: relative;
 }
-/* 
-.review h3{
-    border: 1px solid black;
-    margin: 30px;
-    padding: 150px;
-    
-} */
-
 
 .fa, .fas {
     color: #FF8761;
+    
 }
 
-.review-col div{
+.users{
     text-align: left;
     margin: 65px;
     padding: 30px 40px;
@@ -399,7 +394,7 @@ nav .fas{
     border-radius: 10px;
 }
 
-.review-col h2{
+.users h2{
     padding-bottom: 25px;
     font-size: 26px;
 }
@@ -408,20 +403,42 @@ nav .fas{
     padding-top: 40px;
 }
 
-.review-col p{
+.user-review{
     font-size: 20px;
     font-style: italic;
     
 }
 
-.date{
-    text-align:end;
+.users span{
+    text-align: right;
     font-weight: bold;
-    font-size: 16px;
+    display: block;
 }
 
 .fa-user-check{
     color: #29B79A;
+}
+
+@media (max-width: 1064px) {
+
+
+    /* review */
+    .users .user-review{
+        font-size: 12px;
+    }
+
+    .users span{
+        font-size: 12px;
+    }
+
+    .users h2{
+        font-size: 12px;
+    }
+    .users{
+        padding: 10px 30px;
+        margin: 20px;
+       
+    }
 }
 
 /* ------------------------ FOOTER SECTION-------------------- */
