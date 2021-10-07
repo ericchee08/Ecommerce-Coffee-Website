@@ -269,17 +269,6 @@ nav .fas{
     padding-top: 25px;
 }
 
-
-.image1{
-    border: 1px solid rgb(15, 14, 14);
-    padding: 200px;
-    background-image: url(images/subscribe.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-between;
-}
-
 .image2{
     border: 1px solid rgb(15, 14, 14);
     padding: 200px;
@@ -288,8 +277,6 @@ nav .fas{
     background-position: center;
     display: flex;
     justify-content: space-between;
- 
-    
 }
 
 .image3{
@@ -351,7 +338,6 @@ nav .fas{
 }
 
 .subscription input{
-    
     padding: 20px 100px;
     background-color:transparent;
     border-color: #291E18;
@@ -370,6 +356,48 @@ nav .fas{
     color: rgb(252, 243, 229);
     border-color: rgb(252, 243, 229);
 }
+
+@media (max-width: 1064px) {
+    .image1{
+        border: 1px solid rgb(15, 14, 14);
+        padding: 100px;
+        background-image: url(images/subscribe.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .image2{
+        border: 1px solid rgb(15, 14, 14);
+        padding: 100px;
+        background-image: url(images/subscribe2.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image3{
+        border: 1px solid rgb(15, 14, 14);
+        padding: 100px;
+        background-image: url(images/subscribe3.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .subscription input{
+        padding: 10px 10px;
+        background-color:transparent;
+        font-size: 12px;
+    }
+    
 
 
 /* ------------------------ REVIEW SECTION-------------------- */
@@ -420,24 +448,19 @@ nav .fas{
 }
 
 @media (max-width: 1064px) {
-
-
     /* review */
     .users .user-review{
         font-size: 12px;
     }
-
     .users span{
         font-size: 12px;
     }
-
     .users h2{
         font-size: 12px;
     }
     .users{
         padding: 10px 30px;
-        margin: 20px;
-       
+        margin: 20px; 
     }
 }
 
